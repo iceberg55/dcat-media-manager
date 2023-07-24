@@ -10,7 +10,7 @@ class Table extends View
 
     protected $name = 'table';
 
-    protected $view = 'jatdung.media-manager::_table';
+    protected $view = 'mikha-dev.dcat-media-manager::_table';
 
     public function renderAction(Action $action)
     {

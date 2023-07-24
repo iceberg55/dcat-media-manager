@@ -10,7 +10,7 @@ class Spread extends View
 
     protected $name = 'spread';
 
-    protected $view = 'jatdung.media-manager::_spread';
+    protected $view = 'mikha-dev.dcat-media-manager::_spread';
 
     public function renderAction(Action $action)
     {

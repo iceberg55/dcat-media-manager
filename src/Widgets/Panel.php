@@ -52,7 +52,7 @@ class Panel extends Card
 
     public function content($content)
     {
-        return parent::content(view('jatdung.media-manager::_panel', [
+        return parent::content(view('mikha-dev.dcat-media-manager::_panel', [
             'manager' => $this->manager(),
         ]));
     }

@@ -18,6 +18,6 @@ class DetailShow implements LazyRenderable
         $service = new MediaService();
         $attributes = $service->setDisk($disk)->metadata($path);
 
-        return view('jatdung.media-manager::_detail', ['attributes' => $attributes]);
+        return view('mikha-dev.dcat-media-manager::_detail', ['attributes' => $attributes]);
     }
 }

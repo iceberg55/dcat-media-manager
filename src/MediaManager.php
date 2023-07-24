@@ -32,7 +32,7 @@ class MediaManager
 {
     use HasTools, HasPanel, HasAddressBar, HasSwitchDisk;
 
-    protected $view = 'jatdung.media-manger::index';
+    protected $view = 'mikha-dev.media-manger::index';
 
     /**
      * @var FileSelector
@@ -237,7 +237,7 @@ class MediaManager
         MoveFileModal::make('.file-move-btn')->render();
         DetailModal::make('.file-detail-btn')->render();
 
-        return Admin::view('jatdung.media-manager::index', [
+        return Admin::view('mikha-dev.dcat-media-manager::index', [
             'manager' => $this,
         ]);
     }

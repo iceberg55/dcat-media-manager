@@ -1,6 +1,6 @@
 {
     "name": "mikha-dev/dcat-media-manager",
-    "alias": "",
+    "alias": "Media Manager",
     "description": "Dcat Media Manager",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
@@ -8,8 +8,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "jatdung",
-            "email": "550398445@qq.com"
+            "name": "dev4traders",
+            "email": "mikhail@dev4traders.com"
         }
     ],
     "require": {

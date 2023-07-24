@@ -14,7 +14,7 @@ class BatchActions extends AbstractTool
     use Macroable;
     use HasVariables;
 
-    protected $view = 'jatdung.media-manager::_batch-actions';
+    protected $view = 'mikha-dev.dcat-media-manager::_batch-actions';
 
     /**
      * @var Collection
